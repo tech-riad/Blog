@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, span {
+  font-family: 'Work Sans', sans-serif;
+}
+html {
+  height: -webkit-fill-available;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  height: -webkit-fill-available;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.p-logo {
+  color: #fff;
+  background: #0d6efd;
+  height: 40px;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+}
+.p-logo .cg-logo {
+  font-size: 26px;
+  margin-top: 6px;
+  margin-left: 3px;
+}
+
+.c-icon {
+  font-size: 1.4rem;
+  color: #e67e22;
+}
+
+

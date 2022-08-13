@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card-title{
+    font-weight: 700;
+}
+.passForgot{
+    float: right;
+    font-size: 11px;
+}
+.Login-section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3498db;
+
+}
+.login-form {
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 20px;
+    width: 380px;
+    height: 450px;
+    background: #1a2226 !important;
+    border-radius: 10px;
+}
+.input-type {
+    background: #1a2226 !important;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.input-type:focus{
+    background-color: #fff !important;
+    
+}
+.passForgot {
+    font-size: 15px;
+    
+}
+.passForgot a {
+    text-decoration: none !important;
+    
+}
+.submit-button {
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 10px;
+    
+}
+.sign-up{
+    text-align: center;
+    padding-top: 15px;
+}
